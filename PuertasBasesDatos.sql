@@ -79,3 +79,13 @@ INSERT INTO puertas (puerta , modulo, estado) VALUES ('P2','k', 'OK');
 INSERT INTO puertas (puerta , modulo, estado) VALUES ('P3','k', 'OK');
 INSERT INTO puertas (puerta , modulo, estado) VALUES ('Sotano1','k', 'OK');
 INSERT INTO puertas (puerta , modulo, estado) VALUES ('Sotano2','k', 'OK');
+
+INSERT INTO puertas (puerta , modulo, estado) VALUES ('P1','M SUR', 'OK');
+INSERT INTO puertas (puerta , modulo, estado) VALUES ('P1A','M SUR', 'OK');
+INSERT INTO puertas (puerta , modulo, estado) VALUES ('P2','M SUR', 'OK');
+INSERT INTO puertas (puerta , modulo, estado) VALUES ('P3','M SUR', 'OK');
+INSERT INTO puertas (puerta , modulo, estado) VALUES ('Sotano1','M SUR', 'OK');
+INSERT INTO puertas (puerta , modulo, estado) VALUES ('Sotano1','M SUR', 'OK');
+INSERT INTO puertas (puerta , modulo, estado) VALUES ('Sotano2 Calle','M SUR', 'OK');
+
+select * from puertas where  estado = 'Sin alarma'; 
